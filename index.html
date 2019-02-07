@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Bootstrap 4 Layout</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+       <!--  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="src/css/bootstrap.css">
+        <link rel="stylesheet" href="src/css/styles.css">
+
+    </head>
+
+    <body>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <a class="navbar-brand" href="#">Cherry Blossom Festival</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html" class="active">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Visit the Festival</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="visit/tickets.html">Tickets</a>
+                                    <a class="dropdown-item" href="visit/tours.html">Tours</a>
+                                    <a class="dropdown-item" href="visit/directions.html">Directions & Parking</a>
+                                    <a class="dropdown-item" href="visit/lodging.html">Where to Stay</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="visit/faq.html">Frequently Asked Questions</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="merch.html">Merch</a>
+                                <!-- <div class="nav-item">
+                                    <a class="dropdown-item" href="#">Stationary</a>
+                                    <a class="dropdown-item" href="#">Tote Bags</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">T-Shirts</a>
+                                    <a class="dropdown-item" href="#">Coffee Mugs</a>
+                                </div> -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="jumbotron">
+                    
+                    <h1 class="display-4">March 20 - April 14, 2019</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit quos nulla commodi non, maxime veritatis impedit maiores minima, accusantium cumque nemo. Dolorem, ea veritatis iusto neque voluptatum aspernatur dignissimos!</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </p>
+                    <p>Photo by AJ on Unsplash</p>
+                </div>
+                <div class="row">
+                    <!--switches to take up all 12 columns on small screens and on medium screens all 3 cards are side by side each taking up 4 columns-->
+                    <div class="col-sm-12 col-md-4">
+                        <!--adds size 4 margin on the bottom of card (sizing 1-5)-->
+                        <div class="card mb-4">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Events</h5>
+                                <img src="assets/museum.jpg" class="card-img-top" alt="...">
+                                <p class="card-text">Text about events. Photo by Scott Webb from Pexels</p>
+                                <a href="#" class="card-link">Get Tickets</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--use col-6 (take up 6 columns) for non equal sizes -->
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Festival Merchandise</h5>
+                                <img src="assets/mel-poole-842100-unsplash.jpg" class="card-img-top" alt="...">
+                                <p class="card-text">Some quick text to build up on the card Photo by Mel Poole on Unsplash</p>
+                                <a href="#" class="card-link">Shop our Mech</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                    <h5 class="card-title">Where To Stay</h5>
+                                    <img src="assets/america-architecture-austin-273204.jpg" class="card-img-top"> 
+                                <p class="card-text">Some quick text to build up on the card title</p>
+                                <a href="#" class="card-link">Book a Hotel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-sm-4 mt-md-0">
+                    <div class="col-sm-12 col-md-8 text-sm-center text-md-left">
+                        <h3>An important heading</h3>
+                        <p class="lead">A sort of important subheading can go here, which is larger and gray</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi labore suscipit error adipisci? Iste obcaecati eos, incidunt dolorum nulla optio culpa velit est tempora, magnam dolores consequatur blanditiis, illo rem!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eligendi nam, tempora quas fuga officia deserunt. Inventore unde architecto, eligendi molestiae nisi adipisci beatae repellendus illum quos earum. A, architecto.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <h3 class="mb-4">Support Us</h3>
+                        <!--Pills add background color to active-->
+                        <ul class="nav flex-column nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Volunteer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sponsors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Donate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
